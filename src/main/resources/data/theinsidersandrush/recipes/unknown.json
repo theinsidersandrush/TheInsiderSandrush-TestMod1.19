@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "DR",
+      "RD"
+    ],
+    "key": {
+      "D": {
+        "tag": "minecraft:dirt"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "item": "theinsidersandrush:unknown",
+      "count": 4
+    }
+  }

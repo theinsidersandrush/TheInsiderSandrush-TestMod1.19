@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "theinsidersandrush",
+  "version": "1.0",
+
+  "name": "The Insider Sandrush's mod",
+  "description": "Simple mod adds blocks.",
+  "authors": [
+    "The Insider Sandrush"
+  ],
+  "contact": {
+    "homepage": "https://youtube.com/theinsidersandrush",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/theinsidersandrush/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.theinsidersandrush.example.theinsidersandrush"
+    ]
+  },
+  "mixins": [
+    "theinsidersandrush.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
